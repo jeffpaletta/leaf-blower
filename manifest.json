@@ -1,0 +1,23 @@
+
+	{
+	  "name": "Leaf Blower",
+	  "description": "Remove Leaf Posting",
+	  "version": "1.0",
+   "permissions": [
+        "tabs",
+        "notifications",
+        "http://*/",
+        "https://*/"
+    ],
+	  "background": {
+     "scripts": ["background.js", "jquery.min.js"],
+	    "persistent": false
+	  },
+	  "browser_action": {
+	    "default_title": "Remove Leafs"
+	  },
+	  "manifest_version": 2
+
+	}
+	
+	
